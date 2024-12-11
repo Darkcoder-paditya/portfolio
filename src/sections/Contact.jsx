@@ -1,6 +1,5 @@
 import emailjs from '@emailjs/browser';
 import { useRef, useState } from 'react';
-
 import useAlert from '../hooks/useAlert.js';
 import Alert from '../components/Alert.jsx';
 
@@ -22,15 +21,15 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-        {
-          from_name: form.name,
-          to_name: 'Form',
-          from_email: form.email,
-          to_email: 'prashant.aditya.iitbhu@gmail.com',
-          message: form.message,
-        },
+          import.meta.env.VITE_APP_EMAILJS_SERVICEID,
+          import.meta.env.VITE_APP_EMAILJS_TEMPLATEID,
+          {
+            from_name: form.name,
+            to_name: 'Form',
+            from_email: form.email,
+            to_email: 'dark.star.one2020@gmail.com',
+            message: form.message,
+          },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
       )
       .then(
@@ -74,8 +73,7 @@ const Contact = () => {
         <div className="contact-container">
           <h3 className="head-text">Let's talk</h3>
           <p className="text-lg text-white-600 mt-3">
-            Whether you’re looking to build a new website, improve your existing platform, or bring a unique project to
-            life, I’m here to help.
+            Whether you’re looking to build a new website, improve your existing platform, or bring a unique project to life, I’m here to help.
           </p>
 
           <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-7">
@@ -101,7 +99,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="field-input"
-                placeholder="ex., prashant.aditya.iitbhu@gmail.com"
+                placeholder="ex., dark.star.one2020@gmail.com"
               />
             </label>
 
