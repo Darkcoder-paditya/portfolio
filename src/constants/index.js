@@ -59,7 +59,7 @@ export const myProjects = [
     desc: 'An AI-powered Resume Analyzer built with React, React Router, and Puter.js. It features seamless authentication, resume uploading and storage, and AI-driven job matching with ATS scoring and custom feedback.',
     subdesc:
       'This application leverages a modern tech stack including React, Puter.js for serverless auth and storage, Tailwind CSS for a sleek UI, and Zustand for state management, all bundled with Vite for a fast development experience.',
-    href: '#https://resu-mate-green.vercel.app/',
+    href: 'https://resu-mate-green.vercel.app/',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project-ai-resumate.svg', 
     logoStyle: {
