@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- background -->
+  <rect width="128" height="128" rx="24" fill="#0f172a"/>
+
+  <!-- Hydrogen document -->
+  <rect x="18" y="34" width="36" height="60" rx="6" fill="#38bdf8"/>
+  <text x="36" y="72" fill="white" font-size="22" font-weight="bold" text-anchor="middle">H</text>
+
+  <!-- arrow -->
+  <path d="M60 64h24" stroke="#fff" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow)"/>
+
+  <!-- output box -->
+  <rect x="90" y="46" width="28" height="36" rx="6" fill="#f59e0b"/>
+  <circle cx="104" cy="64" r="8" fill="#fff"/>
+
+  <!-- defs -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#fff"/>
+    </marker>
+  </defs>
+</svg>

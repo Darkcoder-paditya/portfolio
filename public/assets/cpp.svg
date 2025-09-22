@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <circle cx="64" cy="64" r="64" fill="#00599C"/>
+  <path fill="#fff" d="M39 47c5-12 20-18 33-11l7 4v12l-7-4c-6-3-14-2-18 4-5 7-3 17 4 21 4 3 10 3 14 1l7-4v12l-7 4c-13 7-28 1-33-11-5-13 0-28 11-35z"/>
+  <text x="66" y="84" font-size="48" font-weight="bold" text-anchor="middle" fill="#fff">C++</text>
+</svg>
