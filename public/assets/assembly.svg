@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="16" fill="#1f2937"/>
+  <path d="M24 96h80v-64H24z" fill="none" stroke="#f59e0b" stroke-width="4"/>
+  <circle cx="36" cy="44" r="6" fill="#f59e0b"/>
+  <circle cx="92" cy="44" r="6" fill="#f59e0b"/>
+  <circle cx="36" cy="84" r="6" fill="#f59e0b"/>
+  <circle cx="92" cy="84" r="6" fill="#f59e0b"/>
+  <path d="M36 44 L92 44 M36 84 L92 84 M36 44 L36 84 M92 44 L92 84" stroke="#f59e0b" stroke-width="2"/>
+  <text x="64" y="118" font-size="20" text-anchor="middle" fill="#f59e0b">x86 ASM</text>
+</svg>

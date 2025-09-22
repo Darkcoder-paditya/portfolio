@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="title desc">
+  <title id="title">Resume AI Analyzer Icon</title>
+  <desc id="desc">A stylized resume document with an AI network motif and a sparkle indicating insight</desc>
+
+  <!-- background circle -->
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#5eead4"/>
+      <stop offset="1" stop-color="#60a5fa"/>
+    </linearGradient>
+    <linearGradient id="paperGrad" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f3f4f6"/>
+    </linearGradient>
+    <filter id="softShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#0f172a" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- circle backdrop -->
+  <circle cx="128" cy="128" r="120" fill="url(#g1)"/>
+
+  <!-- paper / resume -->
+  <g transform="translate(52,36)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="152" height="184" rx="14" ry="14" fill="url(#paperGrad)" stroke="#e6eefc" stroke-width="1.4"/>
+    <!-- folded corner -->
+    <path d="M128 0 L152 24 L128 24 Z" fill="#e6eefc" opacity="0.98"/>
+    <!-- header rectangle -->
+    <rect x="16" y="18" width="96" height="14" rx="4" ry="4" fill="#111827" opacity="0.92"/>
+    <!-- lines representing resume text -->
+    <g fill="#374151" opacity="0.9">
+      <rect x="16" y="44" width="120" height="8" rx="4" ry="4" />
+      <rect x="16" y="60" width="120" height="6" rx="3" ry="3" />
+      <rect x="16" y="74" width="80"  height="6" rx="3" ry="3" />
+      <rect x="16" y="94" width="120" height="6" rx="3" ry="3" />
+      <rect x="16" y="110" width="120" height="6" rx="3" ry="3" />
+    </g>
+
+    <!-- AI network motif (circle nodes + lines) -->
+    <g transform="translate(90,112)" stroke="#7c3aed" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <!-- connecting lines -->
+      <path d="M0 0 L24 -18"/>
+      <path d="M0 0 L36 6"/>
+      <path d="M0 0 L12 28"/>
+      <!-- nodes -->
+      <g fill="#7c3aed">
+        <circle cx="0" cy="0" r="6"/>
+        <circle cx="24" cy="-18" r="5"/>
+        <circle cx="36" cy="6" r="4.2"/>
+        <circle cx="12" cy="28" r="4.8"/>
+      </g>
+    </g>
+
+    <!-- small sparkle / insight -->
+    <g transform="translate(120,14) rotate(18)">
+      <path d="M0 8 L4 14 L12 16 L4 18 L0 24 L-4 18 L-12 16 L-4 14 Z" fill="#f59e0b" opacity="0.98"/>
+      <circle cx="0" cy="-6" r="3.5" fill="#fbbf24"/>
+    </g>
+  </g>
+</svg>
