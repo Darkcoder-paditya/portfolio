@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-8">
-      <div className="container mx-auto px-4">
+    <footer className="bg-blue-950/20 text-white py-8 w-full">
+      <div className="px-4 max-w-screen-xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Logo and Copyright */}
           <div className="text-center md:text-left">
@@ -25,16 +25,28 @@ const Footer = () => {
           <div className="text-center md:text-right">
             <h4 className="font-semibold mb-4">Connect With Me</h4>
             <div className="flex justify-center md:justify-end gap-4">
-              <a href="https://github.com/Darkcoder-paditya" target="_blank" rel="noopener noreferrer" 
-                className="hover:opacity-75 transition-opacity">
+              <a
+                href="https://github.com/Darkcoder-paditya"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:opacity-75 transition-opacity"
+              >
                 <img src="/assets/github.svg" alt="GitHub" className="w-6 h-6" />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"
-                className="hover:opacity-75 transition-opacity">
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:opacity-75 transition-opacity"
+              >
                 <img src="/assets/twitter.svg" alt="Twitter" className="w-6 h-6" />
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
-                className="hover:opacity-75 transition-opacity">
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:opacity-75 transition-opacity"
+              >
                 <img src="/assets/instagram.svg" alt="Instagram" className="w-6 h-6" />
               </a>
             </div>
